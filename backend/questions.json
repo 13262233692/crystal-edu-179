@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "category": "lattice",
+    "question": "七大晶系中，立方晶系的晶格参数特点是什么？",
+    "options": ["a=b=c，α=β=γ=90°", "a=b≠c，α=β=γ=90°", "a≠b≠c，α=β=γ=90°", "a=b=c，α=β=γ≠90°"],
+    "answer": 0,
+    "explanation": "立方晶系的特点是三个晶轴长度相等，且三个夹角都是90度。"
+  },
+  {
+    "id": 2,
+    "category": "symmetry",
+    "question": "二次旋转轴（C₂）的旋转角度是多少？",
+    "options": ["60°", "90°", "120°", "180°"],
+    "answer": 3,
+    "explanation": "二次旋转轴表示旋转180°后晶体与自身重合。"
+  },
+  {
+    "id": 3,
+    "category": "crystal",
+    "question": "NaCl晶体的空间群是？",
+    "options": ["Fm-3m", "Pm-3m", "Im-3m", "Fd-3m"],
+    "answer": 0,
+    "explanation": "NaCl晶体具有面心立方结构，空间群为Fm-3m。"
+  },
+  {
+    "id": 4,
+    "category": "lattice",
+    "question": "布拉维晶格共有多少种？",
+    "options": ["7种", "14种", "23种", "32种"],
+    "answer": 1,
+    "explanation": "结合七大晶系和四种点阵类型（简单P、体心I、面心F、底心C），共有14种布拉维晶格。"
+  },
+  {
+    "id": 5,
+    "category": "symmetry",
+    "question": "反演操作的对称元素是？",
+    "options": ["旋转轴", "镜面", "反演中心", "反演轴"],
+    "answer": 2,
+    "explanation": "反演操作通过反演中心，将每个点(x,y,z)变换到(-x,-y,-z)。"
+  },
+  {
+    "id": 6,
+    "category": "measurement",
+    "question": "金刚石晶体中C-C键长约为多少？",
+    "options": ["1.54 Å", "1.09 Å", "2.05 Å", "1.20 Å"],
+    "answer": 0,
+    "explanation": "金刚石中C-C键长约为1.54埃（0.154纳米）。"
+  },
+  {
+    "id": 7,
+    "category": "crystal",
+    "question": "CsCl晶体的结构类型是？",
+    "options": ["面心立方", "体心立方", "简单立方", "六方密堆"],
+    "answer": 1,
+    "explanation": "CsCl晶体具有体心立方结构，Cs⁺位于顶点，Cl⁻位于体心（或反之）。"
+  },
+  {
+    "id": 8,
+    "category": "symmetry",
+    "question": "点群的总数是多少？",
+    "options": ["7", "14", "32", "230"],
+    "answer": 2,
+    "explanation": "晶体学点群共有32种，描述晶体的宏观对称性。"
+  },
+  {
+    "id": 9,
+    "category": "lattice",
+    "question": "六方晶系的晶格参数特点是？",
+    "options": ["a=b=c，α=β=γ=90°", "a=b≠c，α=β=90°，γ=120°", "a≠b≠c，α=β=γ=90°", "a=b=c，α=β=γ=120°"],
+    "answer": 1,
+    "explanation": "六方晶系的a、b轴等长，c轴不同，且γ角为120°。"
+  },
+  {
+    "id": 10,
+    "category": "crystal",
+    "question": "空间群的总数是多少？",
+    "options": ["32", "120", "230", "365"],
+    "answer": 2,
+    "explanation": "考虑平移对称性后，晶体的空间群共有230种。"
+  }
+]

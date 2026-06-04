@@ -1,0 +1,42 @@
+{
+  "Alloy_Disordered": {
+    "id": "Alloy_Disordered",
+    "name": "Alloy_Disordered",
+    "formula": "(Mg Zn)",
+    "space_group": "P 63/m m c",
+    "filename": "Alloy_Disordered.cif",
+    "atom_count": 2
+  },
+  "CsCl": {
+    "id": "CsCl",
+    "name": "CsCl",
+    "formula": "Cs Cl",
+    "space_group": "P m -3 m",
+    "filename": "CsCl.cif",
+    "atom_count": 2
+  },
+  "Diamond": {
+    "id": "Diamond",
+    "name": "Diamond",
+    "formula": "C",
+    "space_group": "F d -3 m",
+    "filename": "Diamond.cif",
+    "atom_count": 8
+  },
+  "Graphite": {
+    "id": "Graphite",
+    "name": "Graphite",
+    "formula": "C",
+    "space_group": "P 63 m m c",
+    "filename": "Graphite.cif",
+    "atom_count": 4
+  },
+  "NaCl": {
+    "id": "NaCl",
+    "name": "NaCl",
+    "formula": "Na Cl",
+    "space_group": "F m -3 m",
+    "filename": "NaCl.cif",
+    "atom_count": 8
+  }
+}

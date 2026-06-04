@@ -1,0 +1,18 @@
+{
+  "name": "crystal-edu-platform",
+  "version": "1.0.0",
+  "description": "晶体学教学平台",
+  "scripts": {
+    "install:all": "npm install && cd backend && pip install -r requirements.txt && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && python app.py",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["crystallography", "three.js", "education"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
